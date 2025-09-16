@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
     <title>Exercício 1 Linguagem Web</title>
 </head>
-
 <body>
     <!--Cabeçalho e navegação-->
     <header>
-        <nav>
-
+        <nav >
             <a href="#Sobre"><button>Sobre</button></a>
             <a href="#Serviços"><button>Serviços</button></a>
             <a href="#Projetos"><button>Projetos</button></a>
@@ -20,32 +19,32 @@
         </nav>
     </header>
     <!--Conteúdo Principal-->
-    <main>
-        <section id="Sobre">
+        <div id="apresentacao">
+            <h1>BEM VINDO AO MEU SITE!</h1>
+            <h2>Meu nome é Phillip,</h2>
+            <p>Estudante na área da Tecnologia, cursando Ciências da Computação e formado em Educação Física, atualmente professor nesta área.</p>
+        </div>
+        <div id="Sobre" style="border: 2px solid black;background-color: red; ">
             <h1>Sobre</h1>
             <p>Formado em <strong>Educação Física</strong> e buscando a segunda graduação na carreira agora como <strong>Cientista da Computação</strong></p>
-        </section>
-        <section id="Serviços">
+        </div>
+        <div id="Serviços" style=" border: 2px solid black; background-color: yellow;">
             <h1>Serviços</h1>
             <p>Atualmente professor de educção física e personal, em busca de uma vaga na área de TI</p>
-        </section>
-        <section id="Projetos">
+        </div>
+        <div id="Projetos" style="border: 2px solid black; background-color: pink;">
             <h1>Projetos</h1>
             <p>Projetos de esporte inclusivo; Academia para todos; Projeto segundo tempo; Projetos escolares nas mais variadas áreas relacionadas à TI</p>
-        </section>
-        <section id="Habilidades">
+        </div>
+        <div id="Habilidades" style="border: 2px solid black; background-color: cornflowerblue; ">
             <h1>Habilidades</h1>
             <p>Habilidades pessoais: Iniciativa, bom relacionamento em equipe, apoio e liderança</p>
-            <p>Habilidades profissionais: Programação em Java, Banco de dados, Lógica, </p>
-        </section>
-        <section id="Contato">
-            <h1>Contato</h1>
-            <ul>
-                <li>Whatsapp: 31 9****-****</li>
-                <li>Email: ********@yahoo.com</li>
-            </ul>
-        </section>
-    </main>
+            <p>Habilidades profissionais: Programação em Java, Banco de dados, Lógica</p>
+        </div>
+        <div id="Contato" style="border: 2px solid black; background-color: green;">
+            <h1>Contato</h1> 
+                <button style="background-color: greenyellow; color: black;">Whatsapp: 31 9****-****</button>
+                <button style="background-color: red;">E-mail********@yahoo.com</button>
+        </div>
 </body>
-
 </html>
