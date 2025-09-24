@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #b7b2b2;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.container {
+  background: #e7e7e7;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(66, 52, 52, 0.1);
+  border: 5px solid rgb(94, 144, 20);
+}
+
+#mensagemInput {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #393535;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #58a45a;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+  transition: 1s;
+}
+
+button:hover {
+  background: white;
+    color: #58a45a;
+    text-shadow: none;
+    border: 1px solid black;
+}
+
+#output {
+  margin-top: 15px;
+  padding: 5px;
+  border: 1px solid #060606;
+  border-radius: 5px;
+  background: #fafafa;
+  min-height: 30px;
+}
+
+.counter {
+  margin-top: 20px;
+}
+
+.counter-value {
+  font-size: 2rem;
+  margin: 15px 0;
+  display: block;
+}
